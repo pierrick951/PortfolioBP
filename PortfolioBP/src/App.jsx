@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      
+      <p className='bg-red-300 p-5 flex justify-center'>salut</p>
     </div>
   )
 }
