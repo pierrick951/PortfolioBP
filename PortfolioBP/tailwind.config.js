@@ -6,6 +6,9 @@ export default {
   ],
 
   theme: {
+    fontFamily: {
+      sans: ['Roboto', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],
