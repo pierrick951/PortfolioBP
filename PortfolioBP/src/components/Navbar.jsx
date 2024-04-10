@@ -15,7 +15,7 @@ export default function Navbar() {
         <ul className="flex flex-row">
           <NavLink
             to="/"
-            className="text-white font-sans px-4 py-2"
+            className={({isActive}) => `${isActive && "bg-indigo-900  rounded-2xl p-2"} text-white font-sans px-4 py-2`}
             activeClassName="bg-indigo-700 rounded"
             onClick={closeMenu}
           >
@@ -23,7 +23,7 @@ export default function Navbar() {
           </NavLink>
           <NavLink
             to="/about"
-            className="text-white font-sans px-4 py-2"
+            className={({isActive}) => `${isActive && "bg-indigo-900  rounded-2xl p-2"} text-white font-sans px-4 py-2`}
             activeClassName="bg-indigo-700 rounded"
             onClick={closeMenu}
           >
@@ -31,7 +31,7 @@ export default function Navbar() {
           </NavLink>
           <NavLink
             to="/skill"
-            className="text-white font-sans px-4 py-2"
+            className={({isActive}) => `${isActive && "bg-indigo-900  rounded-2xl p-2"} text-white font-sans px-4 py-2`}
             activeClassName="bg-indigo-700 rounded"
             onClick={closeMenu}
           >
@@ -39,7 +39,7 @@ export default function Navbar() {
           </NavLink>
           <NavLink
             to="/contact"
-            className="text-white font-sans px-4 py-2"
+            className={({isActive}) => `${isActive && "bg-indigo-900  rounded-2xl p-2"} text-white font-sans px-4 py-2`}
             activeClassName="bg-indigo-700 rounded"
             onClick={closeMenu}
           >
@@ -80,7 +80,7 @@ export default function Navbar() {
           <NavLink
             to="/about"
             className="text-white font-sans px-4 py-2"
-            activeClassName="bg-indigo-700 rounded"
+      
             onClick={closeMenu}
           >
             About
@@ -88,7 +88,6 @@ export default function Navbar() {
           <NavLink
             to="/skill"
             className="text-white font-sans px-4 py-2"
-            activeClassName="bg-indigo-700 rounded"
             onClick={closeMenu}
           >
             Skill
@@ -96,7 +95,7 @@ export default function Navbar() {
           <NavLink
             to="/contact"
             className="text-white font-sans px-4 py-2"
-            activeClassName="bg-indigo-700 rounded"
+           
             onClick={closeMenu}
           >
             Contact
