@@ -1,0 +1,53 @@
+.containerHs {
+ 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-u {
+    /* background-color: blue; */
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.containerImg img{
+    width: 400px;
+    border-radius: 35%;
+   
+    padding-block: 10px;
+}
+
+
+
+/* style texte rigth  */
+.Container-rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    margin-right: 50px;
+    height: 100%;
+ 
+}
+
+.titleEmoji {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.heading-rigth span {
+      font-family: Karla;
+      color: #1c1c1c;
+      font-size: 3rem;
+    
+}
+.heading-rigth img {
+    margin-left: 10px;
+}
+
+
