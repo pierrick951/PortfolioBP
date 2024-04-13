@@ -1,6 +1,10 @@
 import thisme from '../../assets/thisme.png'
 import HeroSectionRigthP from './HeroSectionRigthP'
+
 import './HeroSection.css'
+
+
+
 
 
 export default function HeroSection() {
@@ -8,7 +12,11 @@ export default function HeroSection() {
     <div className='containerHs'>
         <div className='container-u'>
             <div className="containerImg">
-                <img src={thisme} alt="it's me " />
+                <a href="https://bento.me/etuve">
+                  <img
+                  className='card'
+                  src={thisme} alt="it's me " />
+                </a>
             </div>
             <div>
                 <HeroSectionRigthP/>
