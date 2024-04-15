@@ -32,7 +32,7 @@ export default function Navbar() {
                 <div className={`${showMenu ? "open" : ""}   NavLinks`}>
 
                     <a href="#">Home</a>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                     <a href="#">Projects</a>
                     <a href="#">Contact</a>
                 </div>

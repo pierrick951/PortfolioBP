@@ -6,10 +6,6 @@ export default function AboutRigth() {
     return (
         <div className="ContainerRigth">
             <img src={computer} alt="image of computer" />
-            <div className='Pastille'>
-                <p>👨‍💻</p>
-            </div>
-
         </div>
     )
 }
