@@ -1,4 +1,4 @@
-import'./AboutSection.css'
+import './AboutSection.css'
 
 export default function AboutLeft() {
   return (
@@ -6,7 +6,7 @@ export default function AboutLeft() {
       <h2>ABOUT ME</h2>
       <h1> A Self Taught Front-end Developper based in Montreal, Canada📍</h1>
       <div className='LeftboxPara'>
-        <p>As a Junior Front-End Developper. I possess an inpressive arsenal of skills in HTML,CSS,JavaScript,React, Tailwind, and SCSS. I like designing and maintaining responsiv websites that offer a smooth user experience.My expertise lies in crafting dynamic engaging interface through writing clean and optimize code and utilizing cutting-edge development toolsand thecniques. I am also a team player who thrives in  collaborating with team to produce web applications</p>
+        <p>Junior Front-End Developer with expertise in HTML, CSS, JavaScript, React, Tailwind, and SCSS. Specialize in crafting dynamic, responsive websites for optimal user experience. Skilled in clean, efficient code and cutting-edge development tools. Collaborative team player adept at producing web applications efficiently.</p>
       </div>
     </div>
   )
