@@ -4,8 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#354610;
-    height: 50vh;
+    height: 80vh;
 }
 
 .Card {
@@ -43,10 +42,9 @@
 
     & h2 {
         font-weight: bold;
-        color: #ffff;
         font-family: Karla;
         padding-block: 10px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     & h1 {
@@ -57,8 +55,8 @@
 }
 .LeftboxPara p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffff;
-  
+    color:#1E2809 ;
+    font-weight: 500;
    line-height: 35px;
 }
 
