@@ -1,7 +1,8 @@
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 import burger from '../../assets/burger.svg'
 import close from '../../assets/close.svg'
-import logo from '../../assets/logo.svg'
+
 import './Navbar.css'
 
 export default function Navbar() {
@@ -18,9 +19,6 @@ export default function Navbar() {
 
     return (
         <nav>
-            <a href="#" className="nav-ico">
-                <img src={logo} alt="go to home" />
-            </a>
             <div className="mainNavlinks">
                 <button
                     onClick={() => handleClick()}
@@ -31,10 +29,10 @@ export default function Navbar() {
 
                 <div className={`${showMenu ? "open" : ""}   NavLinks`}>
 
-                    <a href="#">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Contact</a>
+                    <Link to='/'>Home</Link>
+                    <Link to='/about'>About</Link>
+                    <Link to='/project'>Project</Link>
+                    <Link to='/contact'>Contact</Link>
                 </div>
 
 

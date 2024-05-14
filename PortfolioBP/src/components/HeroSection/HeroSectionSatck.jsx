@@ -4,7 +4,6 @@ export default function HeroSectionStack() {
   return (
     <div className='containerTs'>
       
-        <p>Tech Stack |</p>
 
       <div className="imageContainer">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html 5 icone" width="128" height="128" /> 

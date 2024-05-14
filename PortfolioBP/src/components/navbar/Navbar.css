@@ -4,17 +4,20 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    padding-block: 20px;
-    padding-inline: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
-    background-color: #faf9ee;
+    justify-content: center;
+    padding-block: 30px;
+    padding-inline: 25px;
+    background-color: #1E2809;
     
 }
 
-.nav-ico img {
-    width: 130px;
-}
 
+.nav-ico {
+   text-decoration: none;
+  font-family: Karla;
+   font-weight: 200;
+   color: #ffffff;
+}
 .BurgerToggle{
     display: none;
 
@@ -27,7 +30,7 @@ nav {
 .mainNavlinks {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
    
   
     width: 100%;
@@ -41,7 +44,7 @@ nav {
     text-decoration: none;
     display: inline-block;
     padding-inline: 10px;
-    color: #201f27;
+    color: #fff;
     font-weight: bold;
     text-transform: capitalize;
     font-family: Karla;
@@ -53,9 +56,9 @@ nav {
     display: block;
     position: absolute;
     bottom: -3px;
-    width: 100%;
+    width: 35%;
     height: 1px;
-    background-color: #201f27;
+    background-color: #fff;
     transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.3s  ease-out;
