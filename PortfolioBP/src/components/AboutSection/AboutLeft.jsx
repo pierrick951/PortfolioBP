@@ -10,7 +10,9 @@ export default function AboutLeft() {
         <p>Junior Front-End Developer with expertise in HTML, CSS, JavaScript, React, Tailwind, and SCSS. Specialize in crafting dynamic, responsive websites for optimal user experience. Skilled in clean, efficient code and cutting-edge development tools. Collaborative team player adept at producing web applications efficiently.</p>
 
       </div>
-      <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32"/>
+      <div className="boxemoji">
+        <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32" />
+      </div>
     </div>
   )
 }
