@@ -28,9 +28,7 @@ footer {
     }
 }
 
-.rotateImage {
-    transform: rotate(180deg);
-}
+
 
 .bottom {
     display: flex;
@@ -46,7 +44,7 @@ footer {
     font-family: karla;
 
     & img {
-        width: 20px;
+        width:40 px;
         margin-left: 10px;
 
 

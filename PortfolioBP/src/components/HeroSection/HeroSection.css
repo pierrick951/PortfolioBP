@@ -6,7 +6,7 @@
 }
 
 .container-u {
-    /* background-color: blue; */
+   
     width: 80%;
     height: auto;
     display: flex;
@@ -18,14 +18,13 @@
 .containerImg img {
     width: auto;
     max-width: 250px;
-    border-radius: 35%;
+    border-radius: 20px;
     cursor: pointer;
 }
   .card:hover {
     transition-duration: 150ms;
     box-shadow: 0 6px 20px 15px #00000044;
     transform: scale(1.1);
- 
   }
 
 
@@ -44,13 +43,12 @@
 }
 
 .titleEmoji {
-
     padding-left: 20px;
 }
 
 .heading-rigth span {
     font-family: Karla;
-    color: #1E2809;
+    color: #5f68b9;
     font-size: 3rem;
 
 }
@@ -62,14 +60,12 @@
 .textBelow {
     margin-left: 25px;
     
-
     & p {
         font-size: 16px;
         font-family: karla;
         padding-block: 15px;
 
     }
-
 }
 
 .BoxLink {
@@ -101,7 +97,6 @@
 @media (max-width:430px) {
     .containerImg img {
         width: 250px;
-        border-radius: 35%;
         padding-inline: 10px;
         padding-block: 10px;
     }
