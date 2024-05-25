@@ -16,24 +16,6 @@
 }
 
 
-.ContainerRigth {
-    padding-inline: 15px;
-    justify-content: center;
-    align-items: center;
-    padding-block: 25px;
-
-    width: 100%;
-
-    & img {
-
-        width: auto;
-        height: 300px;
-
-        object-fit: cover;
-        max-width: 300px;
-        border-radius: 35px;
-    }
-}
 
 .LeftboxHeading {
     width: auto;
@@ -44,7 +26,9 @@
     & h2 {
         font-weight: bold;
         font-family: Karla;
+        font-size: 50px;
         padding-block: 10px;
+        color: rgb(98, 129, 223);
     }
 
     & h1 {
@@ -70,23 +54,17 @@
     
     
         & h2 {
-            font-weight: bold;
-            color: #141414;
-            font-family: Karla;
             padding-block: 10px;
             font-size: 14px;
         }
     
         & h1 {
             font-size: 17px;
-            font-family: Karla;
             padding-bottom: 10px;
         }
     }
     
-    .ContainerRigth {
-        display: none;
-    }
+  
 
 }  
 
@@ -108,15 +86,12 @@
     
         & h2 {
             font-weight: bold;
-            color: #274615;
-            font-family: Karla;
             padding-block: 10px;
             font-size: 19px;
         }
     
         & h1 {
             font-size: 20px;
-            font-family: Karla;
             padding-bottom: 10px;
         }
     }
