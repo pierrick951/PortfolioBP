@@ -10,7 +10,7 @@ export default function HeroSectionRigthP() {
                 </h1>
             </div>
             <div className='textBelow'>
-                <p>Hi, im Pierrick Bernard. A passionate Front-end React Developper based in Montreal, Canada 📍</p>
+                <p>Hi, im<span className="Name"> Pierrick Bernard</span>. A passionate Front-end React Developper based in Montreal, Canada 📍</p>
                 <HeroSectionSatck />
             </div>
            

@@ -67,7 +67,11 @@
 
     }
 }
-
+.Name{
+   font-weight: bold;
+   color: rgb(56, 85, 173);
+   text-transform: uppercase;
+}
 .BoxLink {
     margin-left: 20px;
  
