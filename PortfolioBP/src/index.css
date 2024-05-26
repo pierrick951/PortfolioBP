@@ -8,7 +8,6 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-image: repeating-linear-gradient(67.5deg, rgba(215,214,255, 0.2) 0px, rgba(215,214,255, 0.2) 0px,transparent 0px, transparent 1px,rgba(215,214,255, 0.2) 1px, rgba(215,214,255, 0.2) 4px,transparent 4px, transparent 5px,rgba(215,214,255, 0.2) 5px, rgba(215,214,255, 0.2) 8px),repeating-linear-gradient(0deg, rgba(215,214,255, 0.2) 0px, rgba(215,214,255, 0.2) 0px,transparent 0px, transparent 1px,rgba(215,214,255, 0.2) 1px, rgba(215,214,255, 0.2) 4px,transparent 4px, transparent 5px,rgba(215,214,255, 0.2) 5px, rgba(215,214,255, 0.2) 8px),linear-gradient(135deg, rgb(237, 237, 237),rgb(199, 199, 199));
     background-repeat: no-repeat;
     background-size: cover ;
     object-fit: cover;
