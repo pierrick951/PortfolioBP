@@ -1,5 +1,6 @@
 import thisme from '../../assets/thisme.png'
 import HeroSectionRigthP from './HeroSectionRigthP'
+import Contact from '../Contact/Contact'
 
 import './HeroSection.css'
 
@@ -23,6 +24,7 @@ export default function HeroSection() {
             </div>
         </div>
        
+
     </div>
   )
 }
