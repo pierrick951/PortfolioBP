@@ -1,7 +1,7 @@
 import './MyProjects.css'
 import github from '../../assets/github.svg'
 import swatch from '../../assets/swatch.png'
-import twitterHome from '../../assets/TwitterHome.png'
+import twitterHome from '../../assets/MyTwitter.png'
 import live from '../../assets/live.svg'
 export default function MyProjects() {
   return (
@@ -32,11 +32,11 @@ export default function MyProjects() {
 
               </div>
               <div className='BoxLinkCard'>
-                <a href="">
+                <a href="https://github.com/pierrick951/Clone-MoonSwatch">
                   <span>Code</span>
                   <img src={github} alt="" />
                 </a>
-                <a href="">
+                <a href="https://pierrick951.github.io/Clone-MoonSwatch/#venus">
                   <span>Live</span>
                   <img src={live} alt="" />
                 </a>
@@ -50,7 +50,7 @@ export default function MyProjects() {
             <div className='botBox'>
               <div className="BoxParagraphe">
                 <h4> Twitter Clone</h4>
-                <p>This is a description of my Twitter clone project, which includes messaging, scrolling, and posting .</p>
+                <p>This is a description of my Twitter clone project.</p>
                 <p></p>
               </div>
               <div className='boxStack'>
