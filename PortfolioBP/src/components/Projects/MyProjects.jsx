@@ -1,8 +1,11 @@
 import './MyProjects.css'
-import github from '../../assets/github.svg'
 import swatch from '../../assets/swatch.png'
 import twitterHome from '../../assets/MyTwitter.png'
 import live from '../../assets/live.svg'
+import { Github,SquareArrowOutUpRight } from 'lucide-react';
+
+
+
 export default function MyProjects() {
   return (
     <div className="containerProject">
@@ -34,11 +37,11 @@ export default function MyProjects() {
               <div className='BoxLinkCard'>
                 <a href="https://github.com/pierrick951/Clone-MoonSwatch">
                   <span>Code</span>
-                  <img src={github} alt="" />
+                  <Github color="#ffffff" />
                 </a>
                 <a href="https://pierrick951.github.io/Clone-MoonSwatch/#venus">
                   <span>Live</span>
-                  <img src={live} alt="" />
+                  <SquareArrowOutUpRight color="#ffffff" />
                 </a>
               </div>
             </div>
@@ -62,17 +65,17 @@ export default function MyProjects() {
               <div className='BoxLinkCard'>
                 <a href="">
                   <span>Code</span>
-                  <img src={github} alt="" />
+                  <Github color="#ffffff" />
                 </a>
                 <a href="">
                   <span>Live</span>
-                  <img src={live} alt="" />
+                  <SquareArrowOutUpRight color="#ffffff" />
                 </a>
               </div>
             </div>
 
           </div>
-          <div className="cardProject item3">t</div>
+          <div className="cardProject item3"></div>
           <div className="cardProject item4"></div>
           <div className="cardProject item4"></div>
           <div className="cardProject item4"></div>

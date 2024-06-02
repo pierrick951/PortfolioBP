@@ -48,7 +48,7 @@
 
 .heading-rigth span {
     font-family: Karla;
-    color: #5f68b9;
+    color: #1f487e;
     font-size: 3rem;
 
 }
@@ -68,8 +68,8 @@
     }
 }
 .Name{
-   font-weight: bold;
-   color: rgb(56, 85, 173);
+   font-weight: bolder;
+   color: #1f487e;
    text-transform: uppercase;
 }
 .BoxLink {
