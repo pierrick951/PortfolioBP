@@ -75,10 +75,7 @@ export default function MyProjects() {
             </div>
 
           </div>
-          <div className="cardProject item3"></div>
-          <div className="cardProject item4"></div>
-          <div className="cardProject item4"></div>
-          <div className="cardProject item4"></div>
+     
 
         </div>
       </div>

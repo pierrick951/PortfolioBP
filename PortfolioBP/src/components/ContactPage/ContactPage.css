@@ -1,0 +1,33 @@
+.ContainerPage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+
+    & div {
+        background-color: rgb(13, 14, 63);
+        border-radius: 25px;
+        padding-block: 25px;
+        padding-inline: 20px;
+        width: auto;
+    }
+}
+.boxContact{
+    color: white;
+    & p {
+        display: flex;
+        align-items: center;
+    }
+     & span {
+        padding-left: 5px;
+     }
+}
+@media(max-width:764px) {
+    .ContainerPage {
+        height: auto;
+        padding-inline: 10px;
+    }
+}
