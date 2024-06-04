@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
 import HeroSection from './components/HeroSection/HeroSection';
 import AboutSection from './components/AboutSection/AboutSection';
@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
       <Routes>
          <Route path='/' element={<HeroSection/>}/>
@@ -25,7 +25,7 @@ function App() {
 
 
         <Contact />
-      </BrowserRouter>
+      </HashRouter>
 
     </div>
   );
