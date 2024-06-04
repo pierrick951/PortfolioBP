@@ -63,7 +63,7 @@ export default function MyProjects() {
 
               </div>
               <div className='BoxLinkCard'>
-                <a href="">
+                <a href="https://github.com/pierrick951/CloneTwitter/tree/main">
                   <span>Code</span>
                   <Github color="#ffffff" />
                 </a>
