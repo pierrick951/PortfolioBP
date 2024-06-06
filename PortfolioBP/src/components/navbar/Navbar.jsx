@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import burger from '../../assets/burger.svg'
 import close from '../../assets/close.svg'
 
+
 import './Navbar.css'
 
 export default function Navbar() {
@@ -33,9 +34,8 @@ export default function Navbar() {
                     <Link to='/about'>About</Link>
                     <Link to='/project'>Project</Link>
                     <Link to='/contact'>Contact</Link>
-                  
                 </div>
-
+          
 
             </div>
         </nav>

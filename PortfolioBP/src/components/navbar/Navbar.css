@@ -7,7 +7,7 @@ nav {
     justify-content: center;
     padding-block: 30px;
     padding-inline: 25px;
-    background-color: #1d3461;
+    background-color:#4682B4;
     
 }
 
@@ -98,7 +98,7 @@ nav {
         align-items: center;
         justify-content: center;
         position: absolute;
-        background: #1d3461;
+        background: #3f79a8;
         top: 100%;
         left: 0;
         height: 50vh;

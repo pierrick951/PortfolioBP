@@ -67,7 +67,7 @@ export default function MyProjects() {
                   <span>Code</span>
                   <Github color="#ffffff" />
                 </a>
-                <a href="">
+                <a href="https://clone-twitter-lac.vercel.app/">
                   <span>Live</span>
                   <SquareArrowOutUpRight color="#ffffff" />
                 </a>

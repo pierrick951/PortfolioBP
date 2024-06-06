@@ -28,7 +28,7 @@
         font-family: Karla;
         font-size: 50px;
         padding-block: 10px;
-        color: #1f487e;
+        color: #4682B4;
     }
 
     & h1 {
@@ -98,6 +98,12 @@
     
   
     
+}
+
+@media(max-width:500px){
+    .ContainerCard{
+        height: auto;
+    }
 }
 
 /*style emoji rocket*/

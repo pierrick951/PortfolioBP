@@ -1,33 +1,33 @@
 .ContainerPage {
     width: 100%;
-    height: auto;
+    height:80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
+    padding-inline: 10px;
+    text-align: center;
 
-
-    & div {
-        background-color: rgb(13, 14, 63);
-        border-radius: 25px;
-        padding-block: 25px;
-        padding-inline: 20px;
-        width: auto;
-    }
 }
 .boxContact{
-    color: white;
+display: flex;
+width: 60%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+    color: #1c1c1c;
     & p {
-        display: flex;
-        align-items: center;
+   
+        padding-block: 20px;
     }
-     & span {
-        padding-left: 5px;
-     }
+     
 }
 @media(max-width:764px) {
     .ContainerPage {
+        text-align: center;
         height: auto;
-        padding-inline: 10px;
+        padding-inline: 20px;
     }
 }

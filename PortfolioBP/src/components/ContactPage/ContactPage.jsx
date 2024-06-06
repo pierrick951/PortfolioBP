@@ -1,15 +1,24 @@
 import './ContactPage.css'
-import { Mail } from 'lucide-react';
+
 export default function ContactPage() {
     return (
         <div className="ContainerPage">
             <div className='boxContact'>
-                <h1>Don't be shy contact me </h1>
+                <h1>Don't be shy contact me... </h1>
 
                 <p>
-                    <Mail color="#ffffff" />
-                    <span>bernard.pierrick0@gmail.com</span>
+
+                    bernard.pierrick0@gmail.com
                 </p>
+
+
+                <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.gif" alt="✏" width="32" height="32" />
+
+
+
+
+
+
             </div>
         </div>
     )
