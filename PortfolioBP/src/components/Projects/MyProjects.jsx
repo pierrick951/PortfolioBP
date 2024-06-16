@@ -1,8 +1,8 @@
 import './MyProjects.css'
 import swatch from '../../assets/swatch.png'
 import twitterHome from '../../assets/MyTwitter.png'
-import live from '../../assets/live.svg'
-import { Github,SquareArrowOutUpRight } from 'lucide-react';
+import flags from '../../assets/flags.png'
+import { Github, SquareArrowOutUpRight } from 'lucide-react';
 
 
 
@@ -46,6 +46,39 @@ export default function MyProjects() {
               </div>
             </div>
           </div>
+          <div className="cardProject item3">
+            <div className="topBox">
+              <img src={flags} alt="" />
+            </div>
+            <div className='botBox'>
+              <div className="BoxParagraphe">
+                <h4> Flags App</h4>
+                <p>This is a flag app to discover countries and islands. You can see where the country is located</p>
+
+              </div>
+              <div className='boxStack'>
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+
+
+
+
+
+              </div>
+              <div className='BoxLinkCard'>
+                <a href="https://github.com/pierrick951/DiscoverFlags">
+                  <span>Code</span>
+                  <Github color="#ffffff" />
+                </a>
+                <a href="https://discover-flags.vercel.app/">
+                  <span>Live</span>
+                  <SquareArrowOutUpRight color="#ffffff" />
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="cardProject item2">
             <div className="topBox">
               <img src={twitterHome} alt="" />
@@ -75,7 +108,7 @@ export default function MyProjects() {
             </div>
 
           </div>
-     
+
 
         </div>
       </div>
